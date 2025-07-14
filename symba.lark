@@ -1,0 +1,22 @@
+start: (statement | COMMENT)*
+
+statement: assignment
+         | print_stmt
+
+assignment: NAME "=" expr           -> assign_stmt
+print_stmt: "print" expr            -> print_stmt
+
+expr: atom
+    | expr "+" atom                 -> add
+
+atom: NUMBER                        -> number
+    | NAME                          -> var
+    | "(" expr ")"                  -> parens
+
+COMMENT: /#[^\n]*/
+
+%import common.CNAME -> NAME
+%import common.NUMBER
+%import common.WS
+%ignore WS
+%ignore COMMENT     // commentaires avec #
