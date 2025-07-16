@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38cdaef7-4337-4fac-9094-5c2946e92305" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SymbaInterpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symba.lark" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symba.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.symba" afterDir="false" />
+    <list default="true" id="38cdaef7-4337-4fac-9094-5c2946e92305" name="Changes" comment="code fonctionnel avec ajout de quelques regles et du commentaire">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymbaInterpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/SymbaInterpreter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symba.lark" beforeDir="false" afterPath="$PROJECT_DIR$/symba.lark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symba.py" beforeDir="false" afterPath="$PROJECT_DIR$/symba.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.symba" beforeDir="false" afterPath="$PROJECT_DIR$/test.symba" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +24,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "franck2003"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/franck2003/compilateurPython.git",
+    "accountId": "02bc8daf-068c-486f-86ec-e1d032c1df55"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -76,8 +88,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752496743135</updated>
-      <workItem from="1752496744464" duration="13924000" />
+      <workItem from="1752496744464" duration="33009000" />
     </task>
+    <task id="LOCAL-00001" summary="code fonctionnel avec ajout de quelques regles et du commentaire">
+      <option name="closed" value="true" />
+      <created>1752536911225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752536911225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,11 +109,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code fonctionnel avec ajout de quelques regles et du commentaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="code fonctionnel avec ajout de quelques regles et du commentaire" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$symba.coverage" NAME="symba Coverage Results" MODIFIED="1752526238350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

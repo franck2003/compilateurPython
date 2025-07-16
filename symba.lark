@@ -1,3 +1,4 @@
+
 start: (statement | COMMENT)*
 
 statement: assignment
@@ -6,12 +7,27 @@ statement: assignment
 assignment: NAME "=" expr           -> assign_stmt
 print_stmt: "print" expr            -> print_stmt
 
-expr: atom
-    | expr "+" atom                 -> add
+?expr: expr "!+" term               -> vadd
+     | expr "!-" term               -> vsub
+     | expr "!*" term               -> vmul
+     | expr "!/" term               -> vdiv
+     | term
 
-atom: NUMBER                        -> number
-    | NAME                          -> var
-    | "(" expr ")"                  -> parens
+?term: term "+" factor              -> add
+     | term "-" factor              -> sub
+     | factor
+
+?factor: factor "*" unary           -> mul
+       | factor "/" unary           -> div
+       | unary
+
+?unary: "-" unary                  -> neg
+      | "@" expr                  -> eval_expr
+      | atom
+
+?atom: NUMBER                     -> number
+     | NAME                       -> var
+     | "(" expr ")"               -> parens
 
 COMMENT: /#[^\n]*/
 
@@ -19,4 +35,4 @@ COMMENT: /#[^\n]*/
 %import common.NUMBER
 %import common.WS
 %ignore WS
-%ignore COMMENT     // commentaires avec #
+%ignore COMMENT
