@@ -1,4 +1,4 @@
-# 🔣 Symba - Un interpréteur pédagogique en français 🇫🇷
+#  Symba - Un interpréteur pédagogique en français 
 
 **Symba** est un interpréteur écrit en Python basé sur [Lark](https://github.com/lark-parser/lark). Il exécute un petit langage inspiré du français, conçu pour l’apprentissage de la compilation, des arbres syntaxiques et de l’interprétation.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/<ton-utilisateur>/symba
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Utilisation
+##  Utilisation
 
 ```bash
 python symba.py mon_programme.symba
@@ -35,7 +35,7 @@ python symba.py mon_programme.symba -m
 
 ---
 
-## 📝 Exemple de programme
+##  Exemple de programme
 
 ```symba
 x = 1 + 2
@@ -51,7 +51,7 @@ print @(2 * a)  # Affiche 4
 
 ---
 
-## 🧠 À propos de l’opérateur `@`
+##  À propos de l’opérateur `@`
 
 L’opérateur `@` évalue une expression après :
 1. Substitution récursive des variables
@@ -68,7 +68,7 @@ print @y        # Affiche 4
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 symba/
@@ -80,4 +80,4 @@ symba/
 └── examples/              # Exemples de programmes
 ```
 
-✨ Merci d'utiliser Symba !
+ Merci d'utiliser Symba !
